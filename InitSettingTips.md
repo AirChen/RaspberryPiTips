@@ -20,8 +20,8 @@
     deb http://archive.raspbian.org/raspbian jessie main contrib non-free rpi
 保存后，执行 
 
-    sudo apt-get install update 
-    sudo apt-get install upgrade(更新软件)
+    sudo apt-get update 
+    sudo apt-get upgrade(更新软件)
 参考：http://www.shumeipaiba.com/wanpai/jiaocheng/16.html
 
 ###配置网卡
@@ -40,6 +40,12 @@
 
 ###其它
 [安装opencv](https://pypi.python.org/pypi/opencv-python)
+
+```
+sudo apt-get install libopencv-dev
+
+sudo apt-get install python-opencv
+```
 
 [opencv调用原装摄像头](http://blog.csdn.net/leeyunj/article/details/53482265)
 
